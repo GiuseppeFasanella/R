@@ -37,3 +37,16 @@ help.start() apre nel browser la documentazione
 > plot(x,y,type="l")
 
 > dev.off()
+
+
+https://www.youtube.com/watch?v=cX532N_XLIs&list=PLqzoL9-eJTNBDdKgJgJzaQcY6OXmsXAHU&index=1
+
+
+Lezioni di Statistica
+https://www.youtube.com/watch?v=fTpTKRpMcFk
+
+Undestanding covariance
+https://www.youtube.com/watch?v=xGbpuFNR1ME
+
+Understanding correlation
+https://www.youtube.com/watch?v=4EXNedimDMs
