@@ -41,8 +41,9 @@ help.start() apre nel browser la documentazione
 
 https://www.youtube.com/watch?v=cX532N_XLIs&list=PLqzoL9-eJTNBDdKgJgJzaQcY6OXmsXAHU&index=1
 
+https://www.youtube.com/watch?v=3yx1dqSsofc
 
-Lezioni di Statistica
+Stats
 https://www.youtube.com/watch?v=fTpTKRpMcFk
 
 Undestanding covariance
