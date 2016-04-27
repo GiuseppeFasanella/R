@@ -11,10 +11,12 @@ Una volta installato, per aprire un prompt
 ```
 R
 ```
-https://www.youtube.com/watch?v=cX532N_XLIs&list=PLqzoL9-eJTNBDdKgJgJzaQcY6OXmsXAHU&index=1
 
-https://www.youtube.com/watch?v=3yx1dqSsofc
+Un tutorial (47 video):
+https://www.youtube.com/watch?v=UYclmg1_KLk&list=PLqzoL9-eJTNBDdKgJgJzaQcY6OXmsXAHU&index=2
 
+
+Altri link utili:
 Stats
 https://www.youtube.com/watch?v=fTpTKRpMcFk
 
