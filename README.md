@@ -1,9 +1,13 @@
 # R
 
-https://www.youtube.com/watch?v=sdnoG-Y0rqg
 
+```
+#Prima installare R, poi R-Studio (che e' una interfaccia grafica, una IDE)
 sudo apt-get install -y r-base
 
+#Scarica il deb di rstudio e installalo
+sudo dpkg -i rstudio-0.99.896-amd64.deb
+```
 Una volta installato, per aprire un prompt
 
 `R`
