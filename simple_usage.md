@@ -1,6 +1,5 @@
-Una volta installato, per aprire un prompt
-
-`R`
+```
+R
 
 > x=seq(from=-2,to=2,by=0.1)
 
@@ -31,3 +30,4 @@ help.start() apre nel browser la documentazione
 > plot(x,y,type="l")
 
 > dev.off()
+```
