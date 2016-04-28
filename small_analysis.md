@@ -41,4 +41,14 @@ Errore: oggetto "Age" non trovato
 > x=as.factor(x)
 > class(x)
 [1] "factor"
+
+La media delle eta' quando il genere e' donna
+> mean(Age[Gender=="female"])
+[1] 12.44972
+
+#voglio le righe con gender female e tutte le colonne
+> FemData=LungCapData[Gender=="female",]
+> MaleData=LungCapData[Gender=="male",]
+> MaleOver15=LungCapData[Gender=="male" & Age>15,]
+
 ```
