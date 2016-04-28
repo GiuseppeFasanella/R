@@ -6,4 +6,8 @@ Carico il pacchetto richiesto: survival
 Carico il pacchetto richiesto: splines
 Package epiR 0.9-74 is loaded
 Type help(epi.about) for summary information
+
+help(package = epiR)
+
+
 ```
