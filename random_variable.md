@@ -37,4 +37,24 @@ p sta per la cumulativa
 > plot(x,dens,type="l",main="X-normal")
 > abline(v=75)
 
+########### t Student
+> #t-stat=2.3, degree of freedom=25
+> #P(t>2.3)
+> pt(q=2.3, df=25, lower.tail = F)
+[1] 0.01503675
+> # two=sided pvalue (above 2.3 and below -2.3)
+> pt(q=2.3, df=25, lower.tail = F) + pt(q=-2.3, df=25, lower.tail=T)
+[1] 0.03007351
+> # find t for 95% confidence
+> # value of t with 2.5% in each tail
+> qt(p=0.025, df=25, lower.tail=T)
+[1] -2.059539
+
+########### F
+pf
+
+########### exp
+pexp
+
+
 ```
