@@ -36,3 +36,47 @@ sample estimates:
 difference in location 
             -0.8000564 
 ```
+
+```
+> #Wilcoxon Signed Rank Test
+> # Mean difference for 2 dependent samples
+> help("wilcox.test")
+> boxplot(Before, After)
+> #Null Hypho: Median change in SBP is 0
+> wilcox.test(Before, After, mu=0, alt="two.sided", paired=T, conf.int=T, conf.level=0.99)
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  Before and After
+V = 267, p-value = 0.0008655
+alternative hypothesis: true location shift is not equal to 0
+99 percent confidence interval:
+  2.000012 14.000038
+sample estimates:
+(pseudo)median 
+      7.500019 
+
+Warning messages:
+1: In wilcox.test.default(Before, After, mu = 0, alt = "two.sided",  :
+  impossibile calcolare p-value esatto in presenza di ties
+2: In wilcox.test.default(Before, After, mu = 0, alt = "two.sided",  :
+  impossibile calcolare intervalli di confidenza esatti in presenza di ties
+3: In wilcox.test.default(Before, After, mu = 0, alt = "two.sided",  :
+  impossibile calcolare p-valu esatti in presenza di zeri
+4: In wilcox.test.default(Before, After, mu = 0, alt = "two.sided",  :
+  impossibile calcolar eintervalli di confidenza esatti in presenza di zeri
+> wilcox.test(Before, After, mu=0, alt="two.sided", paired=T, conf.int=T, conf.level=0.99, exact=F, correct=F)
+
+	Wilcoxon signed rank test
+
+data:  Before and After
+V = 267, p-value = 0.0008221
+alternative hypothesis: true location shift is not equal to 0
+99 percent confidence interval:
+  2.000083 14.000027
+sample estimates:
+(pseudo)median 
+      7.500019 
+
+> #correct=F => not implement continuity corrections
+```
