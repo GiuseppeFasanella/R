@@ -1,3 +1,4 @@
+```
 > hist(LungCap,freq=F)
 > hist(LungCap,freq=FALSE)
 > hist(LungCap,freq=FALSE,breaks=14)
@@ -7,3 +8,4 @@
 > lines(density(LungCap))
 > lines(density(LungCap),col=2)
 > lines(density(LungCap),col=2,lwd=3)
+```
