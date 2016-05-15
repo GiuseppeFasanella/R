@@ -1,3 +1,4 @@
+```
 > table(Smoke)/length(Smoke)
 Smoke
        no       yes 
@@ -34,3 +35,4 @@ Errore in is.data.frame(x) :
 [1] 0.8172464
 > cov(LungCap,Age)
 [1] 8.738289
+```
